@@ -1,6 +1,8 @@
 # The Day the Letter Came · 来信的那天
 
-[Play the hosted game](https://the-day-the-letter-came.bobshenruililin.chatgpt.site).
+[Play on GitHub Pages](https://bobshenruililin.github.io/the-day-the-letter-came/).
+
+[Alternate hosted link](https://the-day-the-letter-came.bobshenruililin.chatgpt.site).
 
 A browser-playable pixel-art family adventure. The playable v02 chapters lead into the v03 director’s cut: one authored nine-page comic conversation at the family home. The story follows Sheng in Ningbo as a child, the same Sheng in Hong Kong as a young adult, and his daughter Jo in Shanghai and Ningbo. An optional Singapore coda opens after the main ending.
 
@@ -107,3 +109,7 @@ Screenshots are in `previews/v03-*.jpg`; detailed behavior results are in [verif
 ## Sharing release v03.1
 
 The shareable release bundles all thirteen WebP illustrations and both local pixel fonts. Artwork and modules carry a release version so an earlier failed request does not stay cached across revisions. The comic also clears its fallback when an image loads successfully. `tests/assets.mjs` verifies every referenced file and validates the artwork payloads against the actual static publishing directory.
+
+## GitHub Pages hosting
+
+The Pages workflow publishes `dist` after the gameplay and asset checks pass. Game, test and workflow changes on `main` publish automatically. The workflow can also be run manually from the repository’s Actions tab. All art and fonts use relative URLs, so the game works at the repository’s Pages subdirectory.
