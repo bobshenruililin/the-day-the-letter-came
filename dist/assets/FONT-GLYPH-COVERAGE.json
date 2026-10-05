@@ -1,0 +1,38 @@
+{
+  "font": "fusion-pixel-12px-proportional-zh_hans-v2026.09.25.woff2",
+  "release": "2026.09.25",
+  "font_sha256": "0ebd99e6f1e9b650a793a3f759c1c3dfa99f0c5b6502e78569b48ddb43767e40",
+  "bytes": 666264,
+  "cmap_character_count": 36999,
+  "units_per_em": 1200,
+  "glyph_count": 36436,
+  "checks": [
+    {
+      "source": "/Users/macbookpro/Documents/Codex/2026-10-04/bui/outputs/the-day-the-letter-came/dist/index.html",
+      "distinct_required_chinese_and_punctuation": 11,
+      "missing": [],
+      "characters": "上信天宁来波海港的那香"
+    },
+    {
+      "source": "/Users/macbookpro/Documents/Codex/2026-10-04/bui/outputs/the-day-the-letter-came/dist/game.js",
+      "distinct_required_chinese_and_punctuation": 7,
+      "missing": [],
+      "characters": "中家文春秀老读"
+    },
+    {
+      "source": "/Users/macbookpro/Documents/Codex/2026-10-04/bui/outputs/the-day-the-letter-came/dist/story.js",
+      "distinct_required_chinese_and_punctuation": 77,
+      "missing": [],
+      "characters": "。一上下不也了些今他作你修候先再原去双口叫咳嗽回多大好如寄就屋己当我把抬拿换攒时春是有槛次没球留的盛秀穿等给腿自船若要说走过还这道那里钱门阵阿雨鞋顶，：？"
+    },
+    {
+      "source": "/Users/macbookpro/Desktop/The_Day_the_Letter_Came_Playable_Narrative_Revision_v02.md",
+      "distinct_required_chinese_and_punctuation": 82,
+      "missing": [],
+      "characters": "。一上下不也了些今他作你信修候先再原去双口叫咳嗽回多大天好如家寄就屋己当我把抬拿换攒时春是有来槛次没球留的盛秀穿等给老腿自船若要说走过还这道那里钱门阵阿雨鞋顶，：？"
+    }
+  ],
+  "total_distinct_required": 90,
+  "missing_total": [],
+  "required_empty_outlines": []
+}
