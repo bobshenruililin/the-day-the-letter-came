@@ -8,8 +8,8 @@ All artwork used the **built-in imagegen tool**. Four new compositions were gene
 
 The two initial inputs were references only, never initial edit targets:
 
-1. Exact known courtyard geography, architecture, palette and pixel treatment: `/Users/macbookpro/Documents/Codex/2026-10-04/bui/outputs/the-day-the-letter-came/dist/assets/ningbo-courtyard.webp`
-2. Human/character drawing treatment and cream-shirt Sheng design: `/Users/macbookpro/Documents/Codex/2026-10-04/bui/outputs/the-day-the-letter-came/dist/assets/family-page.webp`
+1. Exact known courtyard geography, architecture, palette and pixel treatment: `ningbo-courtyard.webp`
+2. Human/character drawing treatment and cream-shirt Sheng design: `family-page.webp`
 
 All outputs are opaque. Important dialogue, document wording, Chinese text and the saved childhood sentence are separate runtime layers. No game text, labels, logos or phone UI is baked into these artworks.
 
@@ -19,10 +19,10 @@ The WebP files were exported losslessly without resizing. The source pixels were
 
 | Integrated artwork | Dimensions | Selected native PNG | Workspace original |
 | --- | --- | --- | --- |
-| `dist/assets/comic-reunion.webp` | 1586 × 992 | `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-5da593da-505b-469e-b64e-b283998aebd8.png` | `/Users/macbookpro/Documents/Codex/2026-10-04/bui/work/assets-source/comic-reunion-v03.png` |
-| `dist/assets/comic-courtyards.webp` | 1586 × 992 | `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-cbaa9b12-50da-4f77-aedc-0423d9d6b6be.png` | `/Users/macbookpro/Documents/Codex/2026-10-04/bui/work/assets-source/comic-courtyards-v03.png` |
-| `dist/assets/comic-open-call.webp` | 1586 × 992 | `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-2de48fed-2a5f-41d4-935f-0a7e37ce8e5a.png` | `/Users/macbookpro/Documents/Codex/2026-10-04/bui/work/assets-source/comic-open-call-v03.png` |
-| `dist/assets/comic-support.webp` | 1586 × 992 | `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-185494fd-3ea2-4d87-88a7-dc1c38cf9049.png` | `/Users/macbookpro/Documents/Codex/2026-10-04/bui/work/assets-source/comic-support-v03.png` |
+| `dist/assets/comic-reunion.webp` | 1586 × 992 | `exec-5da593da-505b-469e-b64e-b283998aebd8.png` | `comic-reunion-v03.png` |
+| `dist/assets/comic-courtyards.webp` | 1586 × 992 | `exec-cbaa9b12-50da-4f77-aedc-0423d9d6b6be.png` | `comic-courtyards-v03.png` |
+| `dist/assets/comic-open-call.webp` | 1586 × 992 | `exec-2de48fed-2a5f-41d4-935f-0a7e37ce8e5a.png` | `comic-open-call-v03.png` |
+| `dist/assets/comic-support.webp` | 1586 × 992 | `exec-185494fd-3ea2-4d87-88a7-dc1c38cf9049.png` | `comic-support-v03.png` |
 
 ## Crop layouts
 
@@ -60,7 +60,7 @@ The complete submitted text follows. No omitted shorthand is needed to reproduce
 
 ### Initial generation 1: comic-reunion
 
-Tool mode: built-in imagegen **generate**; `transparent_background:false`. Both reference paths listed above were supplied as `referenced_image_paths`. Native initial output: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-5da593da-505b-469e-b64e-b283998aebd8.png`.
+Tool mode: built-in imagegen **generate**; `transparent_background:false`. Both reference paths listed above were supplied as `referenced_image_paths`. Native initial output: `exec-5da593da-505b-469e-b64e-b283998aebd8.png`.
 
 ```text
 Use case: illustration-story
@@ -77,7 +77,7 @@ Composition: both figures full-body or below-knee readable at center-left beside
 
 ### Initial generation 2: comic-courtyards
 
-Tool mode: built-in imagegen **generate**; `transparent_background:false`. Both reference paths listed above were supplied as `referenced_image_paths`. Native initial output: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-4b539474-e9d1-4f67-b764-76d3ad348a26.png`.
+Tool mode: built-in imagegen **generate**; `transparent_background:false`. Both reference paths listed above were supplied as `referenced_image_paths`. Native initial output: `exec-4b539474-e9d1-4f67-b764-76d3ad348a26.png`.
 
 ```text
 Use case: illustration-story
@@ -96,7 +96,7 @@ No overlap or translucent figure across the split. NO text or dates in either pa
 
 ### Initial generation 3: comic-open-call
 
-Tool mode: built-in imagegen **generate**; `transparent_background:false`. Both reference paths listed above were supplied as `referenced_image_paths`. Native initial output: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-b0e457ae-224e-43e6-b5d9-6b8ba98f8369.png`.
+Tool mode: built-in imagegen **generate**; `transparent_background:false`. Both reference paths listed above were supplied as `referenced_image_paths`. Native initial output: `exec-b0e457ae-224e-43e6-b5d9-6b8ba98f8369.png`.
 
 ```text
 Use case: illustration-story
@@ -115,7 +115,7 @@ Compatible ordinary light and figure scale connect the two halves while the divi
 
 ### Initial generation 4: comic-support
 
-Tool mode: built-in imagegen **generate**; `transparent_background:false`. Both reference paths listed above were supplied as `referenced_image_paths`. Native initial output: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-a523232e-31f1-4221-adf8-9640db3119ab.png`.
+Tool mode: built-in imagegen **generate**; `transparent_background:false`. Both reference paths listed above were supplied as `referenced_image_paths`. Native initial output: `exec-a523232e-31f1-4221-adf8-9640db3119ab.png`.
 
 ```text
 Use case: illustration-story
@@ -137,7 +137,7 @@ Only normal solid people, no ghost overlays. Exactly these four panels in this o
 
 ### Targeted edit 1: Open-call phone orientation edit
 
-Tool mode: built-in imagegen **edit**; `transparent_background:false`. Sole edit target supplied via `referenced_image_paths`: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-b0e457ae-224e-43e6-b5d9-6b8ba98f8369.png`. Native output: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-d9921d78-8fb6-4319-ba67-daaa41f903d1.png`. The first correction left the visible rear-lens circles; the literal follow-up below supplies the selected final version.
+Tool mode: built-in imagegen **edit**; `transparent_background:false`. Sole edit target supplied via `referenced_image_paths`: `exec-b0e457ae-224e-43e6-b5d9-6b8ba98f8369.png`. Native output: `exec-d9921d78-8fb6-4319-ba67-daaa41f903d1.png`. The first correction left the visible rear-lens circles; the literal follow-up below supplies the selected final version.
 
 ```text
 Use case: precise-object-edit
@@ -149,7 +149,7 @@ Preserve all pixel-art details outside this small device/stand. No writing, labe
 
 ### Targeted edit 2: Supporting camera-view phone correction
 
-Tool mode: built-in imagegen **edit**; `transparent_background:false`. Sole edit target supplied via `referenced_image_paths`: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-a523232e-31f1-4221-adf8-9640db3119ab.png`. Native output: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-185494fd-3ea2-4d87-88a7-dc1c38cf9049.png`. Selected final supporting atlas.
+Tool mode: built-in imagegen **edit**; `transparent_background:false`. Sole edit target supplied via `referenced_image_paths`: `exec-a523232e-31f1-4221-adf8-9640db3119ab.png`. Native output: `exec-185494fd-3ea2-4d87-88a7-dc1c38cf9049.png`. Selected final supporting atlas.
 
 ```text
 Use case: precise-object-edit
@@ -161,7 +161,7 @@ No text, numbers, logos, labels or interface. Preserve crisp visible square pixe
 
 ### Targeted edit 3: Present courtyard resident identity correction
 
-Tool mode: built-in imagegen **edit**; `transparent_background:false`. Sole edit target supplied via `referenced_image_paths`: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-4b539474-e9d1-4f67-b764-76d3ad348a26.png`. Native output: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-cbaa9b12-50da-4f77-aedc-0423d9d6b6be.png`. Selected final diptych. Only the seated cream-shirt/gray-haired resident was replaced.
+Tool mode: built-in imagegen **edit**; `transparent_background:false`. Sole edit target supplied via `referenced_image_paths`: `exec-4b539474-e9d1-4f67-b764-76d3ad348a26.png`. Native output: `exec-cbaa9b12-50da-4f77-aedc-0423d9d6b6be.png`. Selected final diptych. Only the seated cream-shirt/gray-haired resident was replaced.
 
 ```text
 Use case: precise-object-edit
@@ -173,7 +173,7 @@ No text, labels, glyphs, logos, dates, UI, ghost imagery or dramatic grief. Pres
 
 ### Targeted edit 4: Literal tabletop screen correction
 
-Tool mode: built-in imagegen **edit**; `transparent_background:false`. Sole edit target supplied via `referenced_image_paths`: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-d9921d78-8fb6-4319-ba67-daaa41f903d1.png`. Native output: `/Users/macbookpro/.codex/generated_images/01a10736-70d6-7b40-bc90-9e5824753f66/exec-2de48fed-2a5f-41d4-935f-0a7e37ce8e5a.png`. Selected final open-call spread. The tabletop phone's visible front now has plain light blue-gray glass with no rear-camera lenses.
+Tool mode: built-in imagegen **edit**; `transparent_background:false`. Sole edit target supplied via `referenced_image_paths`: `exec-d9921d78-8fb6-4319-ba67-daaa41f903d1.png`. Native output: `exec-2de48fed-2a5f-41d4-935f-0a7e37ce8e5a.png`. Selected final open-call spread. The tabletop phone's visible front now has plain light blue-gray glass with no rear-camera lenses.
 
 ```text
 Use case: precise-object-edit

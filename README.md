@@ -12,7 +12,7 @@ Serve the `dist` folder with a static web server. From this folder:
 python3 -m http.server 4173 --directory dist
 ```
 
-Open `http://localhost:4173`. A server is needed because the source uses JavaScript modules. These are local preview instructions; this document makes no publication or deployment claim.
+Open `http://localhost:4173`. A server is needed because the source uses JavaScript modules.
 
 ## Current narrative flow
 
@@ -40,7 +40,7 @@ Each page presents its complete dialogue immediately. A short art entrance is de
 
 Completion is saved when the final page and its full exchange appear. It needs no extra completion button. **Re-read from the door** and **Family records** are secondary actions on that page. Family records offer the notebook, qiaopi, Sheng’s separate Hong Kong letter and an album when photographs exist. The student letter adds no compulsory page or new phone branch in this cut.
 
-See [NARRATIVE-IMPLEMENTATION-v03.md](NARRATIVE-IMPLEMENTATION-v03.md) for acceptance and continuity details. [ENDING-DIRECTORS-CUT-v03.md](ENDING-DIRECTORS-CUT-v03.md) and [PLAYABLE-NARRATIVE-v02.md](PLAYABLE-NARRATIVE-v02.md) preserve the supplied briefs. The v02 implementation checklist describes the earlier ending and is retained as revision history.
+See [NARRATIVE-IMPLEMENTATION-v03.md](NARRATIVE-IMPLEMENTATION-v03.md) for acceptance and continuity details.
 
 ## Controls and assistance
 
@@ -102,7 +102,7 @@ The suites exercise actual controller and reader code in a lightweight DOM subst
 
 **v03 browser review:** All nine pages were reviewed with the finished artwork in the Codex in-app browser. Hong Kong’s larger figures fit the apartment; the comic preserves the saved childhood line; Page 3 reload/Continue restores the letter; final reload/Continue restores the open call without a Continue button. Keyboard Enter on Back moves one page, and Space on Read transcript opens the transcript without advancing. The Chinese letter was checked at 390 × 844 with Largest text and reduced motion: Fusion Pixel SC rendered at 33.6 px, the letter measured 307 px within a 375 px document, no horizontal overflow was observed, and the companion illustrations loaded successfully.
 
-Screenshots are in `previews/v03-*.jpg`; detailed behavior results are in [verification-v03.json](verification-v03.json). [COMIC-ASSETS-v03.md](COMIC-ASSETS-v03.md) records the exact art prompts, source images and crops. This review does not certify independent audience comprehension, screen-reader usability, other browser engines or real touch hardware. Earlier v02 screenshots remain revision history.
+Screenshots are in `previews/v03-*.jpg`; detailed behavior results are in [verification-v03.json](verification-v03.json). [COMIC-ASSETS-v03.md](COMIC-ASSETS-v03.md) records the exact art prompts, source images and crops. This review does not certify independent audience comprehension, screen-reader usability, other browser engines or real touch hardware.
 
 ## Sharing release v03.1
 

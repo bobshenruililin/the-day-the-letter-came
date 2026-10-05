@@ -1,0 +1,109 @@
+{
+  "revision": "v03",
+  "verified_on": "2026-10-05",
+  "passed": 64,
+  "failed": 0,
+  "suites": {
+    "mechanics_story": {
+      "passed": 21,
+      "checks": [
+        "All three memories survive save, reload, and conflicting replay",
+        "Invalid or corrupt save safely resets without throwing",
+        "Legacy v1 saves retain the original message while gaining safe v02 defaults",
+        "Both study plans, every football outcome and each holiday stop survive save and reload",
+        "Invalid revision state resets locally without losing the original childhood message",
+        "The saved open-call resume is accepted only for a completed present courtyard",
+        "Every stable comic page persists without modifying the childhood message",
+        "Invalid comic page values reset locally instead of becoming an arbitrary jump",
+        "An earlier completed open-call save migrates to the final comic tableau",
+        "Unread chapter warnings and deliberate new-story memory reset",
+        "Manual directional shot crosses the actual goal plane",
+        "Wall rebounds return the ball into play",
+        "Literal climb pauses for help, then reaches the top without jumps or falls",
+        "Downward ladder movement stays on the ladder and respects its foot",
+        "Crowd contact is a small bump with a cooldown, never a reset",
+        "Shanghai walking route and assistance can both reach the waiting friend",
+        "Opposing direction keys cancel and diagonal movement is normalized",
+        "Canon and archival boundaries remain in narrative",
+        "Trip photos survive reload and invalid album entries are removed",
+        "Friend driving follows the painted route and can collect all three photos",
+        "Braking overrides friend driving, and reading leaves the car stationary"
+      ]
+    },
+    "controller": {
+      "passed": 31,
+      "checks": [
+        "Keyboard and visible kick controls score twice through actual physics, then reach Mother",
+        "Movement still works after a button has focus",
+        "Dribbling stops outside the goal line; a visible kick is required",
+        "A real pass is caught and returned, opens the goal, and produces an assisted goal through normal physics",
+        "A menu pauses play and restores canvas focus and movement",
+        "Prologue reaches child play and reading never advances on a timer or held key",
+        "All four football outcomes use consistent Mother and return-to-yard dialogue",
+        "Permission to play is an untimed playable interval, followed by book pickup and a deliberate book transition",
+        "Same-story replay speaks only the committed message and does not offer a conflicting replacement",
+        "The reciprocal ladder needs book transfer and a steady grip, then changes the player into the support role",
+        "Ladder assistance performs the same reciprocal transfers and reaches both viewpoints",
+        "Study plan A has its own preparation and partner timing, then reaches Jo",
+        "Study plan B has its own preparation and partner timing, then reaches Jo",
+        "Shanghai has a playable route and no collision displacement or precision failure",
+        "One workshop interaction permits shared completion, while additional smoothing remains optional",
+        "Chapter 4 automatically opens the first readable comic page without inspection, modal, camera or kick controls",
+        "The football choice reaches the comic notebook, call and transcript exactly",
+        "The trick choice reaches the comic notebook, call and transcript exactly",
+        "The goal choice reaches the comic notebook, call and transcript exactly",
+        "Direct comic entry labels the default in navigation and never writes it as a prior player choice",
+        "Every middle comic page persists and Continue resumes that page with the same canonical message",
+        "Completed reload restores the open-call tableau, while back and re-read preserve completion",
+        "Comic advance, held keys and native button activation have exclusive input routing",
+        "Comic pause, transcript and notes controls leave the page in place and restore reading focus",
+        "Sound off, reduced motion and larger text preserve the full finale without initializing audio",
+        "The direct road visit with no photos hands off automatically and retains only actual optional road state",
+        "The snack road visit with photos hands off automatically and retains only actual optional road state",
+        "The scenic road visit with no photos hands off automatically and retains only actual optional road state",
+        "Workshop watch, kick and folds return to the completed comic tableau and persist that return",
+        "Deliberate New story resets ending-page state and permits a different first message",
+        "One uninterrupted journey links earlier play, all nine comic pages and the optional coda without an old ending gate"
+      ],
+      "failed": 0,
+      "failures": []
+    },
+    "comic_reader": {
+      "passed": 12,
+      "checks": [
+        "Nine stable pages render complete text immediately, remain untimed, and finish without an extra final click",
+        "Every saved message appears exactly in the notebook, voice and full transcript with no substitute",
+        "Canonical memory and optional photos are snapshotted and invalid/default inputs are resolved consistently",
+        "The full existing letter and Chinese draft are readable without changing page, memory or completion",
+        "An early advance settles the entrance and rapid subsequent input cannot skip another page",
+        "Continue clicks and story-area taps each advance once even when an event bubbles",
+        "Completion remains latched through back/re-read and callbacks fire once per show entry",
+        "Secondary transcript and records buttons consume their input without turning a page",
+        "Reduced motion retains all information and avoids waiting for art",
+        "Refreshing reading settings changes neither page order nor canonical content",
+        "Image failures preserve readable content and the path to completion",
+        "All road branches use the same nine-page welcome and ending, with only actual collected photos retained"
+      ],
+      "failed": 0,
+      "failures": []
+    }
+  },
+  "browser": {
+    "engine": "Codex in-app browser",
+    "reviewed": "All nine comic pages with final artwork, enlarged Hong Kong figures, exact saved callback, full English/Chinese letter, middle-page and final reload/Continue, keyboard Back and transcript, final no-Continue hold.",
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "text_setting": "Largest",
+      "chinese_font": "Fusion Pixel SC",
+      "chinese_font_size_px": 33.6,
+      "letter_width_px": 307,
+      "document_width_px": 375,
+      "horizontal_overflow": false,
+      "all_visible_art_loaded": true
+    },
+    "limits": "No independent audience playtest, screen-reader usability assessment, cross-engine or real touch-device certification."
+  }
+}
